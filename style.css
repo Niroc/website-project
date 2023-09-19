@@ -44,7 +44,7 @@
 #navbar a{
     color: #4a2a1a  ;
     padding: 0.5% 1.5%;
-    margin: 0.5%;
+    margin: 0.5% 0.5% 0;
     border-radius: 15px;
     text-decoration: none; 
 }
