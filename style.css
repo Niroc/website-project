@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    background-color: #c5a880;
+    color: #4a2a1a;
+}
+
+#topbar{
+    display:  flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #faf1a2;
+    border-radius: 0 0 15px  15px;
+}
+
+#topbar img{
+    max-width: 400px;
+    width: 90%;
+    background-blend-mode: screen;
+    background-color: #faf1a2;
+    border-radius: 15px;
+}
+
+#logoancor{
+    background-color: #faf1a2;
+    border-radius: 15px;
+}
+
+#navbar {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    white-space:pre;
+    flex-wrap: wrap;
+    padding: 0.5% 1.5%;
+    background-color: #faf1a2;
+    border-radius: 15px;
+}
+#navbar a{
+    color: #4a2a1a  ;
+    padding: 0.5% 1.5%;
+    margin: 0% 0.5%;
+    border-radius: 15px;
+    text-decoration: none; 
+}
+
+#navbar a:hover {
+    background-color: #f5e7d2;
+    border-radius: 5px;
+    /* font-size: 105%; */
+    font-weight: bold;
+    text-decoration: underline; 
+}
+
+#navbar p{
+    background-color: #faf1a2;
+}
+
+#foot {
+    position: fixed;
+    background-color: #faf1a2; /* set again so #navbar doesn't interfere with the footer */
+    border-radius: 15px 15px 0 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+#main-body {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: wrap;
+    text-align: center;
+    padding-top: 120px;
+    }
+
+#main-body h2{
+        margin: 0 12%;
+    }
+#main-body p{
+        margin: 0 12%;
+    }
+
+#item-selection {
+    display:  flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+}
+
+#item-selection img {
+    max-width: 400px;
+    width: 90%;
+}
+
+#item-selection div{
+    text-align: center;
+}
+
+#timetable {
+    border: 1px solid #000000;
+}
+
+#timetable td{
+    border: 1px solid #000000;
+}
+
+input {
+    background-color: white;
+}
+textarea {
+    background-color: white;
+}
