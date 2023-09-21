@@ -30,9 +30,7 @@
 
         <br/>
 
-        <!-- make dummy form loop back to homepage -->
-        <form action="index.html" method="post">
-        <!-- <form action="URL or file path where my server-side script would reside.php" method="post"> -->
+        <form action="URL or file path where my server-side script would reside.php" method="post">
 
             <!-- neaten it up with a table -->
             <table>
@@ -55,9 +53,11 @@
 
             <textarea id="message" name="message" rows="10" cols="40" required></textarea><br><br>
     
-            <input type="submit" value="Submit">
+            <!--<input type="submit" value="Submit">-->
 
         </form>
+        <!-- put button outside of form to prevent errors on github as there's no php files -->
+        <input type="submit" value="Submit">
         <br/>
 
     </div>
