@@ -75,7 +75,7 @@
     align-items: center;
     text-wrap: wrap;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 110px;
     }
 
 #main-body h2{
@@ -115,3 +115,27 @@ input {
 textarea {
     background-color: white;
 }
+
+.fling-minislide {
+    display:  flex;
+    width:500px; 
+    height:150px; 
+    overflow:hidden; 
+    position:relative;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+}
+
+.fling-minislide img{ 
+    position:absolute; 
+    animation:fling-minislide 24s infinite; 
+    opacity:0; 
+    width: 100%; 
+    height: auto;
+}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:8s;}
+.fling-minislide img:nth-child(2){animation-delay:16s;}
+.fling-minislide img:nth-child(1){animation-delay:24s;}
