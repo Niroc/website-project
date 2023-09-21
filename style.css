@@ -116,6 +116,10 @@ textarea {
     background-color: white;
 }
 
+#event-table {
+    text-align: top;
+}
+
 .fling-minislide {
     display:  flex;
     width:500px; 
